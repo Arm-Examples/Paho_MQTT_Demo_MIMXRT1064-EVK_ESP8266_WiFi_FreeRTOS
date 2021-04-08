@@ -40,7 +40,7 @@ jobs:
 
       - name: Clean repo files
         run: |
-          git ls-files | grep -v .github | xargs rm -rf *
+          git ls-files | grep -v .github | xargs rm
 
       - name: Extract zip
         run: |
@@ -52,6 +52,6 @@ jobs:
           if ! git diff --cached --exit-code; then
             git config user.name github-actions
             git config user.email github-actions@github.com
-            git commit -m "Artifactory Sync - $GITHUB_RUN_ID"
+            git commit -m "Example Sync - $GITHUB_RUN_ID"
             git push
           fi
