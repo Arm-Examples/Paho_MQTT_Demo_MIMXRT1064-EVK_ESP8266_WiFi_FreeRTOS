@@ -1,0 +1,13 @@
+[
+{"vendor": "ARM", "name": "mbedTLS", "version": "1.7.0"},
+{"vendor": "MDK-Packs", "name": "Paho_MQTT", "version": "1.0.3"},
+{"vendor": "ARM", "name": "CMSIS-Driver"},
+{"vendor": "ARM", "name": "CMSIS"},
+{"vendor": "Keil", "name": "ARM_Compiler"},
+{"vendor": "Keil", "name": "MIMXRT1064-EVK_BSP", "version": "1.3.1"},
+{"vendor": "Keil", "name": "iMXRT1064_MWP", "version": "1.5.1"},
+{"vendor": "NXP", "name": "EVK-MIMXRT1064_BSP", "version": "15.1.0"},
+{"vendor": "NXP", "name": "MIMXRT1064_DFP", "version": "15.1.0"},
+{"vendor": "ARM", "name": "CMSIS-FreeRTOS"},
+{"vendor": "MDK-Packs", "name": "IoT_Socket"}
+]
